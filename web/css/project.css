@@ -1,0 +1,90 @@
+#project-top {
+	width: 100%;
+	height: 30vh;
+	position: relative;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	color: #000;
+	font-size: 60px;
+	margin: 30px;
+	margin-bottom: 0;
+}
+.main-inner{
+	margin:20px 0;
+}
+.card {
+	height: 300px;
+	border-radius: 10px;
+	margin: 20px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card:hover {
+	box-shadow: #666 0px 0px 3px;
+	transition: transform 1s ease;
+}
+
+.card-wrap {
+	text-align: center;
+	height: 100%;
+    width: 100%;
+}
+
+.card img {
+	width: 80px;
+	height: 80px;
+}
+
+.color0 {
+	background: #8DC058;
+	color: #fff;
+}
+
+.color1 {
+	background: #319DD4;
+	color: #fff;
+}
+
+.color2 {
+	background: #686871;
+	color: #fff;
+}
+.color3 {
+	background: #D9534F;
+	color: #fff;
+}
+
+.color4 {
+	background: #F0AD4E;
+	color: #fff;
+}
+
+.color5 {
+	background: #5C51EC;
+	color: #fff;
+}
+.card-content{
+	padding : 0 25px;
+	height: 80%;
+	display:flex;/*Flex布局*/
+	display: -webkit-flex; /* Safari */
+	align-items:center;/*指定垂直居中*/
+    justify-content: center;
+}
+.card-ft{
+	height: 20%;
+	display:flex;/*Flex布局*/
+	display: -webkit-flex; /* Safari */
+	align-items:center;/*指定垂直居中*/
+}
+.card-ft a,.card-content a{
+	color: #fff;
+}

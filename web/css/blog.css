@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, "Microsoft YaHei", play;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* 进度条 */
+
+.scrollbar {
+    position: fixed;
+    top: 0;
+    height: 3px;
+    background: #BEBEBE;
+    z-index: 99999;
+}
+
+/* 菜单 */
+
+#switch {
+    height: 32px;
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    border-radius: 1.2rem;
+    box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, 0.117);
+    background: #fff;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+#switch .icon {
+    width: 12px;
+    height: 2px;
+    background: #333;
+    position: relative;
+    margin: 0 auto;
+    transition-duration: 0.2s;
+}
+
+#switch .icon::before {
+    width: 12px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    content: "";
+}
+
+#switch .icon::after {
+    width: 12px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    content: "";
+}
+
+/* 左侧导航 */
+
+#left-nav {
+    background: #fafafa;
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    left: -280px;
+    top: 0;
+    bottom: 0;
+    transition: transform .5s ease;
+    overflow: scroll;
+}
+
+.author-nav {
+    text-align: center;
+    margin: 40px auto 40px auto;
+}
+
+.author-nav img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #504E4E;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+    color: #504E4E;
+    background-color: #eee;
+}
+
+.main-nav ul li {
+    padding: 15px 0;
+}
+
+.main-nav ul li:hover {
+    background-color: #eee;
+}
+
+.submenu {
+    display: none;
+    background: #eee;
+}
+
+.submenu a li:hover {
+    background-color: #e0f3f5;
+}
+
+/*定义滚动条高宽 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/*定义滚动条轨道背景*/
+
+::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+/*定义滑块背景*/
+
+::-webkit-scrollbar-thumb {
+    background-color: #69d2e7;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+#player_list_main::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+/*--滚动条轨道--*/
+
+#player_list_main::-webkit-scrollbar-thumb {
+    background-color: #0CC65B;
+    -webkit-border-radius: 4px;
+}
+
+/*--滚动条滑块--*/
+
+#player_list_main::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#wrap {
+    position: relative;
+    transition: transform .5s ease;
+}
+
+#main {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#top {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-title {
+    color: #fff;
+    font-size: 80px;
+    margin: 20px 0 60px 0;
+}
+
+.md-title {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.open {
+    transform: translateX(280px);
+    transition: transform .5s ease;
+}
+
+.botton-open {
+    transform: translateX(250px);
+    transition: transform .5s ease;
+}
+
+.article-wrap {
+    text-align: center;
+}
+
+.index-article {
+    width: 83%;
+    display: inline-block;
+    text-align: left;
+    border-bottom: 1px dashed #ddd;
+    padding: 20px 20px;
+    overflow: hidden;
+    line-height: 2;
+    transition: all .5s ease;
+}
+
+.post-info {
+    text-align: center;
+}
+
+.post-info h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.post-detial span a {
+    text-decoration: none;
+    color: #A7ABAC;
+}
+
+.post-detial span {
+    color: #A7ABAC;
+}
+
+.more {
+    margin: 20px 0 10px 0;
+    display: block;
+    padding: 2px 15px;
+    color: #000;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+.more a{
+    color: #000;
+
+}
+
+.more:hover {
+    color: #fff;
+    background: #999;
+}
+
+.pagin-wrap {
+    margin: 20px 0 15px 0;
+}
+
+.pagination {
+    opacity: 0.6;
+    text-align: center;
+}
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+}
+
+footer span {
+    line-height: 2;
+}
+
+footer div#block {
+    display: block;
+}
+

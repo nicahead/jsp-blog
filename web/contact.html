@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>NIC|CONTACT</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+    <meta name="keywords" content="倪畅,烟台大学,计算机,学生,个人主页,HTML,CSS,PHP,JavaScript,jQuery,XML,AJAX,,SQL,bootstrap,Python"/>
+    <meta name="description" content="倪畅的个人主页"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/blog.css"/>
+    <link rel="stylesheet" type="text/css" href="css/project.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/blog.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="bar" class="scrollbar"></div>
+<div id="gotop"></div>
+<div id="switch">
+    <div id="iconfixed">
+        <div class="icon"></div>
+    </div>
+</div>
+<div id="left-nav">
+    <div class="author-nav">
+        <img src="img/avatar.jpg" alt="个人头像">
+    </div>
+    <div class="main-nav">
+        <ul>
+            <a href="index.html">
+                <li>返回主页</li>
+            </a>
+            <a href="servlet/PostlistServlet?role=0">
+                <li>博客</li>
+            </a>
+            <a href="servlet/PostlistServlet?role=4&main_id=1">
+                <li>工程</li>
+            </a>
+            <a href="about.html">
+                <li>关于我</li>
+            </a>
+            <a href="contact.html">
+                <li>联系我</li>
+            </a>
+            <a href="/servlet/PostlistServlet?role=1">
+                <li>控制台</li>
+            </a>
+        </ul>
+    </div>
+</div>
+<div id="wrap">
+    <div id="project-top">
+        <div class="info">
+            <div class="title">
+                #Contact
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="container main-inner">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p><s>除了话，你什么都能说</s></p>
+                    <p>欢迎留言，在本站留下你的脚丫子~</p>
+                    <p>如果你有小秘密想要告诉我，可以飞鸽传书到nicahead@gmail.com，看到之后我将以脑电波的形式给你回复</p>
+                    <p>你也可以在这些地方找到我&nbsp;
+                        <a href="http://blog.csdn.net/qq_34838643" target="_blank"><img src="img/csdn.png"
+                                                                                        title="CSDN"/></a>&nbsp;
+                        <a href="#" target="_blank"><img src="img/GitHub.png" title="GitHub"></a>&nbsp;
+                        <a href="https://weibo.com/5732753761/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1"
+                           target="_blank"><img src="img/weibo.png" title="新浪微博"></a>&nbsp;
+                        <a href="https://www.zhihu.com/people/sing-you/activities" target="_blank"><img
+                                src="img/zhihu.png" title="知乎"></a>&nbsp;
+                        <a href="http://music.163.com/#/user/home?id=118034200" target="_blank"><img
+                                src="img/netease.png" title="网易云音乐"></a>&nbsp;
+                        <a href="http://tieba.baidu.com/home/main?un=%E4%B8%AD%E5%9B%BD%E5%A5%BD%E9%9D%92%E5%B9%B41997&fr=home"
+                           target="_blank"><img src="img/tieba.png" title="百度贴吧"></a></p>
+                    <br>
+                    <!--畅言-->
+                    <!--PC和WAP自适应版-->
+                    <div id="SOHUCS" sid="contact"></div>
+                    <script type="text/javascript">
+                        (function () {
+                            var appid = 'cytraPrxk';
+                            var conf = 'prod_07bc0b79d648203975558480241d0645';
+                            var width = window.innerWidth || document.documentElement.clientWidth;
+                            if (width < 960) {
+                                window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+                            } else {
+                                var loadJs = function (d, a) {
+                                    var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+                                    var b = document.createElement("script");
+                                    b.setAttribute("type", "text/javascript");
+                                    b.setAttribute("charset", "UTF-8");
+                                    b.setAttribute("src", d);
+                                    if (typeof a === "function") {
+                                        if (window.attachEvent) {
+                                            b.onreadystatechange = function () {
+                                                var e = b.readyState;
+                                                if (e === "loaded" || e === "complete") {
+                                                    b.onreadystatechange = null;
+                                                    a()
+                                                }
+                                            }
+                                        } else {
+                                            b.onload = a
+                                        }
+                                    }
+                                    c.appendChild(b)
+                                };
+                                loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+                                    window.changyan.api.config({appid: appid, conf: conf})
+                                });
+                            }
+                        })(); </script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="block">
+            <span id="beian">鲁ICP备18011092号 · </span>
+            <span id="demo"></span>
+        </div>
+        Copyright © 2018 nichang.site <span>托管于阿里云</span>
+    </footer>
+</div>
+</body>
+</html>

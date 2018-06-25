@@ -1,0 +1,80 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	font-family: Consolas, "Microsoft YaHei", play;
+}
+ul{
+	list-style: none;
+}
+
+#left-nav {
+	background: #fafafa;
+	height: 100vh;
+	/* position: fixed; */
+	top: 0;
+	bottom: 0;
+	padding: 0;
+}
+
+.author-nav {
+	text-align: center;
+	margin: 40px auto 40px auto;
+}
+
+.author-nav img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 20px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #504E4E;
+}
+
+.main-nav a:hover {
+	text-decoration: none;
+	color: #504E4E;
+	background-color: #eee;
+}
+.main-nav a .current{
+	text-decoration: none;
+	color: #504E4E;
+	background-color: #eee;
+}
+
+.main-nav ul li {
+	padding: 15px 0;
+}
+
+.main-nav ul li:hover {
+	background-color: #eee;
+}
+#addCty{
+	height: 100%;
+	padding: 0 20px;
+}
+#ciyList{
+	height: 100%;
+	padding: 0 20px;
+}
+.paginat{
+	float: right;
+}
+.fiter{
+	margin:20px 0;
+}
+#edit{
+	height: 100%;
+	padding: 0 15px;
+}
+#operate{
+	height: 100%;
+	padding: 0 10px;
+}
