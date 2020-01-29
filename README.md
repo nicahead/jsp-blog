@@ -1,8 +1,6 @@
 # jsp-blog
 jsp+servlet实现的个人博客系统
 
-演示站点：https://nichang.site/
-
 ### 技术栈
 `Jsp/Servlet` `Jquery`  `Bootstrap` `Mysql` `Ajax`  `Markdown`  `响应式`
 
