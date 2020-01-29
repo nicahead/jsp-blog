@@ -22,7 +22,9 @@ jsp+servlet实现的个人博客系统
 对分类进行增删改查
 两层分类
 
-### 后台预览
+### 效果预览
+![1M5iSe.png](https://s2.ax1x.com/2020/01/29/1M5iSe.png)
+![1M5kyd.png](https://s2.ax1x.com/2020/01/29/1M5kyd.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190217160424661.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0ODM4NjQz,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190217160139948.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0ODM4NjQz,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190217160153541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0ODM4NjQz,size_16,color_FFFFFF,t_70)
